@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+* {
+    background-color: #17252A;
+    color: #FEFFFF;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+#title {
+    color: #3AAFA9;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#subtitle, #socials h2, #projects h2 {
+    text-align: center;
+}
+
+#projects div, #socials p {
+    text-align: left;
+    padding-left: 40%;
+}
+
+a {
+    color: #3AAFA9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2B7A78;
+}
+
+@media screen and (max-width: 850px) {
+    #projects div, #socials p {
+        padding-left: 35%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #projects div, #socials p {
+        padding-left: 20%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #projects div, #socials p {
+        padding-left: 15%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    #projects div, .name {
+        padding-left: 5%;
+    }
+}
