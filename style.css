@@ -17,11 +17,11 @@ html {
     padding-top: 10px;
 }
 
-#subtitle, #socials h2, #projects h2 {
+#subtitle, #socials h2, #projects h2, #career h2 {
     text-align: center;
 }
 
-#projects div, #socials p {
+#projects div, #socials p, #career div {
     text-align: left;
     padding-left: 40%;
 }
@@ -36,25 +36,25 @@ a:hover {
 }
 
 @media screen and (max-width: 850px) {
-    #projects div, #socials p {
+    #projects div, #socials p, #career div {
         padding-left: 35%;
     }
 }
 
 @media screen and (max-width: 550px) {
-    #projects div, #socials p {
+    #projects div, #socials p, #career div {
         padding-left: 20%;
     }
 }
 
 @media screen and (max-width: 380px) {
-    #projects div, #socials p {
+    #projects div, #socials p, #career div {
         padding-left: 15%;
     }
 }
 
 @media screen and (max-width: 280px) {
-    #projects div, .name {
+    #projects div, #socials p, #career div {
         padding-left: 5%;
     }
 }
