@@ -17,7 +17,7 @@ html {
     padding-top: 10px;
 }
 
-#subtitle, #socials h2, #projects h2, #career h2 {
+.subtitle, #socials h2, #projects h2, #career h2 {
     text-align: center;
 }
 
