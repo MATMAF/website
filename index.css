@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    background-color: #0d1b2a;
+    color: #e0e1dd;
+    font-family: 'Poppins', sans-serif;
+}
+.nav {
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+nav div {
+    padding: 13px;
+    color: #8338ec;
+}
+nav a {
+    text-decoration: none;
+}
+nav a p {
+    position: relative;
+}
+nav a p::before {
+    content: '';
+    background-color: #8338ec;
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    height: 2px;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+}
+nav a:hover p::before {
+    bottom: 0;
+    height: 100%;
+} 
+nav div p {
+    display: inline;
+    color: #e0e1dd;
+}
+nav .resume {
+    border: 1px solid #8338ec;
+    border-radius: 10px;
+}
+nav .resume a {
+    color: #8338ec;
+}
+section.title {
+    margin-top: 100px;
+    margin-left: 250px;
+}
+section.title div {
+    color: #8338ec;
+}
+section.title h1 {
+    margin: 0;
+    font-size: 50px;
+}
+section.title h2 {
+    margin: 0;
+    font-size: 50px;
+    color: #778da9;
+}
+section.text {
+    width: 800px;
+    margin-left: 250px;
+    color: #778da9;
+}
+section.text p {
+    display: inline;
+    margin: 0;
+}
+section.text p.color {
+    display: inline;
+    color: #8338ec;
+}
+
+@media screen and (max-width: 480px) {
+    nav{
+        padding: 0;
+        padding-top: 10px;
+        font-size: 12px;
+        justify-content: space-around;
+    }
+    section.title {
+        margin-top: 100px;
+        margin-left: 15px;
+    }
+    section.title h1 {
+        font-size: 40px;
+    }
+    section.title h2 {
+        font-size: 40px;
+    }
+    section.text {
+        width: 340px;
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 481px) {
+    nav {
+        padding: 0;
+        padding-top: 10px;
+        font-size: 22px;
+        justify-content: space-around;
+    }
+    section.title {
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    section.title div {
+        font-size: 22px;
+    }
+    section.text {
+        width: 600px;
+        margin-left: 100px;
+    }
+}
